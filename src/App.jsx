@@ -1,13 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import Projects from "./components/Projects";
+import Home from "./components/home";
+import Projects from "./components/projects";
 import Contact from "./components/Contacts";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import Footer from "./components/Footer";
-import Skills from "./components/Skills"; 
-import Education from "./components/Education";  // Ensure this is correct
-import Experience from "./components/Experience";
+import Skills from "./components/skills"; 
+import Education from "./components/education";
+import Experience from "./components/experience";
+ 
 
 function App() {
   return (
